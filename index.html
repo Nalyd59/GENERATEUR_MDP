@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Generateur de mdp</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <header>
+        <h1>Générateur de mot de passe</h1>
+    </header>
+    <section class="inputBox">
+        <div class="passwordBox">
+            <input type="text"
+            id="password" readonly>
+        </div>
+        <div class="buttons">
+            <form>
+                <input name="nombre" type="number" id="size" name="size" min="1" max="20" placeholder="Entrez la taille du mdp">
+                <button type="button" onclick="getPassword()">générer</button>
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+    <footer>
+		<span>2023 © CREPIN Dylan</span>
+	</footer>
+</body>
+</html>

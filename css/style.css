@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+::selection{
+	background-color: #5372f0;
+}
+header {
+	height: 150px;
+	width: 100%;
+	position: fixed;
+    top: 0%;
+	background-color: #FFF7D4;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-color: #5372f0;
+}
+.inputBox{
+	display: flex;
+	flex-direction: column;
+	background: #fff;
+	width: 350px;
+}
+.passwordBox{
+	padding: 10px;
+}
+input{
+	width: 100%;
+	letter-spacing: 3px;
+	padding: 20px;
+	font-size: 17px;
+	text-align: center;
+	font-weight: 400;
+	outline: 0;
+	border: 1px solid #ccc;
+}
+.buttons{
+	padding: 10px;
+	width: 100%;
+}
+button{
+	text-transform: capitalize;
+	padding: 10px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color: #fff;
+	background-color: #5372f0;
+	width: 100%;
+}
+footer {
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	bottom: 0%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFF7D4;
+}
